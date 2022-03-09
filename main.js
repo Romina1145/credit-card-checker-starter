@@ -101,3 +101,12 @@ const idInvalidCardCompanies = (arrayOfInvalidNumbers) => {
 };
 
 console.log(idInvalidCardCompanies(mystery3));
+
+const string = "4024007112639330";
+
+const stringToArray = (string) => {
+  let credCard = string.split("");
+  return credCard;
+};
+
+console.log(stringToArray(string));
